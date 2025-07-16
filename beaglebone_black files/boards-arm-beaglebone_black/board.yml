@@ -1,7 +1,0 @@
-board:
-  name: beaglebone_black
-  full_name: BeagleBone Black Rev C1
-  vendor: ti
-  socs:
-    - name: am335x
-

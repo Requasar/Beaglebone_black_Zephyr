@@ -1,8 +1,0 @@
-# Bu dosya, AM335x SoC ailesini/serisini/SoC'sini tanımlar.
-# Bizim yapımız basit olduğu için hepsi aynı.
-family:
-- name: ti_am335x
-  series:
-  - name: am335x
-    socs:
-    - name: am335x
