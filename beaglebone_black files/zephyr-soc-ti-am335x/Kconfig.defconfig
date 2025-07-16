@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: Apache-2.0
+
+if SOC_SERIES_AM335X
+
+# Varsayılan olarak bir seri portumuz olduğunu belirtelim.
+# Bu, sürücülerin doğru seçilmesine yardımcı olur.
+config HAS_UART_AM33XX
+    default y
+
+endif # SOC_SERIES_AM335X
